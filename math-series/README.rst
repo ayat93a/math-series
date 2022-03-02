@@ -1,1 +1,2 @@
-[math series](https://ayat93a.github.io/math-series/)
+
+<a href= 'https://ayat93a.github.io/math-series/' > Math series </a> 
