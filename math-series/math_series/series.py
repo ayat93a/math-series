@@ -7,23 +7,20 @@ def fibonacci(n):
      else:
         return fibonacci(n-1) + fibonacci(n-2)      
     except:
-     print('fibonacci function accept only numbers')
+     print('fibonacci function accept only integer numbers')
 
-print(fibonacci(6))
 
 "<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<"
 def lucas (n):
     try:
-     if n == 0:
+     if n <= 0:
         return 2
      elif n == 1:
         return 1
      else:
-        return fibonacci(n-1) + fibonacci(n-2)
+        return lucas(n-1) + lucas(n-2)
     except:
-     print('lucas function accepts only number')
-
-print(lucas(6))
+     print('lucas function accepts only integer number')
 
 "<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<"
 
